@@ -12,7 +12,7 @@ spring:
       minimum-idle: 100
   rabbitmq:
     host: 192.168.0.168
-    username: /leyou
+    username: leyou
     password: leyou
     virtual-host: /leyou
     template:
