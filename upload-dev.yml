@@ -7,7 +7,7 @@ spring:
     virtual-host: /leyou
     username: /leyou
     password: leyou
-    host: 192.168.19.121
+    host: 192.168.0.168
   servlet:
     multipart:
       max-file-size: 10MB # 限制文件上传的大小
