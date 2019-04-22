@@ -26,7 +26,10 @@ spring:
       exchange: leyou.order.exchange
     publisher-confirms: true
   redis:
-    host: 192.168.0.168
+    database: 1
+    host: 192.168.0.122
+    port: 6379
+    password: 123456
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
   resources:
